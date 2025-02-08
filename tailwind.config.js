@@ -7,7 +7,20 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+	container : {
+		center : true ,
+		padding : "15px"
+	},
+	screens : {
+		sm : "640px",
+		md : "768px" ,
+		lg : "960" ,
+		xl : "900px"
+	},
   	extend: {
+		animation: {
+			"slow-spin": "spin 7s linear infinite",
+		   },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

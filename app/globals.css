@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
 
 @layer base {
   :root {
@@ -75,4 +66,46 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body {
+  font-family: San , sans-serif;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "San";
+  src: url("/WebFonts/Family/SanDiego-ExtraLight.woff") format("woff") ,;
+  font-weight: 200 ;
+  font-style: normal;
+}
+@font-face {
+  font-family: "San";
+  src: url("/WebFonts/Family/SanDiego-Light.woff") format("woff") ,;
+  font-weight: 300 ;
+  font-style: normal;
+}
+@font-face {
+  font-family: "San";
+  src: url("/WebFonts/Family/SanDiego-Medium.woff") format("woff") ,;
+  font-weight: 400 ;
+  font-style: normal;
+}
+@font-face {
+  font-family: "San";
+  src: url("/WebFonts/Family/SanDiego-SemiBold.woff") format("woff") ,;
+  font-weight: 500 ;
+  font-style: normal;
+}
+@font-face {
+  font-family: "San";
+  src: url("/WebFonts/Family/SanDiego-Bold.woff") format("woff") ,;
+  font-weight: 600 ;
+  font-style: normal;
+}
+@font-face {
+  font-family: "San";
+  src: url("/WebFonts/Family/SanDiego-Black.woff") format("woff") ,;
+  font-weight: 800 ;
+  font-style: normal;
 }
